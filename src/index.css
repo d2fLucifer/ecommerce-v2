@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .top-list-menu {
+    @apply cursor-pointer py-1 px-2  relative after:lg:absolute after:bottom-0 after:lg:left-0 after:lg:bg-gray after:h-0.5 after:lg:w-0
+    hover:after:lg:w-full 
+    after:lg:transition-all after:ease-in-out after:lg:duration-300;
+  }
+}
