@@ -1,8 +1,6 @@
 import { useState } from "react";
-import React from "react";
 
 import { FiMenu } from "react-icons/fi";
-import { AiOutlineShoppingCart } from "react-icons/ai";
 import { IoCloseOutline } from "react-icons/io5";
 import clsx from "clsx";
 import Badge from "@mui/material/Badge";
@@ -26,7 +24,7 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <main className="border- border-b ">
+    <main className="border border-b  ">
       <nav className="flex   justify-evenly px-8 items-center py-6    ">
         <div className="flex items-center gap-8">
           <section className="flex lg:basis-2/6 lg:justify-between  gap-4">
@@ -36,15 +34,15 @@ const Header = () => {
               className="text-3xl cursor-pointer lg:hidden"
             />
             {/* logo */}
-            <h2 className="text-4xl font-bold">Exclusive</h2>
+            <h2 className="text-4xl cursor-pointer font-bold">Exclusive</h2>
           </section>
         </div>
-        <ul className="hidden   lg:flex lg:gap-20   text-gray-400 hover:text-black">
+        <ul className="hidden   lg:flex lg:gap-20   text-gray-600 hover:text-black">
           <li className="top-list-menu">
             <a href="">Home</a>
           </li>
           <li className="top-list-menu">
-            <a href="">Contact</a>
+            <a href="">Catalog</a>
           </li>
           <li className="top-list-menu">
             <a href="">About</a>
@@ -70,7 +68,7 @@ const Header = () => {
               <a href="">Home</a>
             </li>
             <li className="top-list-menu list-none	">
-              <a href="">Contact</a>
+              <a href="">Catalog</a>
             </li>
             <li className="top-list-menu list-none	">
               <a href="">About</a>

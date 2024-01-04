@@ -5,7 +5,7 @@
 @tailwind utilities;
 @layer components {
   .top-list-menu {
-    @apply cursor-pointer py-1 px-2  relative after:lg:absolute after:bottom-0 after:lg:left-0 after:lg:bg-gray after:h-0.5 after:lg:w-0
+    @apply cursor-pointer py-1 px-2  relative after:lg:absolute after:bottom-0 after:lg:left-0 after:lg:bg-gray-600 after:h-0.5 after:lg:w-0
     hover:after:lg:w-full 
     after:lg:transition-all after:ease-in-out after:lg:duration-300;
   }
